@@ -26,6 +26,7 @@ class Spotify extends Component{
         return(
             <Fragment>
             <h1>Spotify Data API</h1>
+         
             </Fragment>
         )
     }
