@@ -10,12 +10,19 @@ import Playlist from './component/playlist/playlist';
 import Spotify from './component/spotifyAPI';
 import Dropdown from './component/dropdown';
 import GiphyForm from './pages/home';
+import NewsFeedPage from './pages/newsfeed';
 const App = () => {
 console.log(process.env.REACT_APP_GIPHY_KEY)
   return (
     <div className="App" id='App'>
-      
-     <GiphyForm />
+
+
+
+{/* news feed page */}
+<NewsFeedPage />
+
+      {/* component giphy */}
+     {/* <GiphyForm /> */}
       {/* <img src='https://media.giphy.com/media/Vh8pbGX3SGRwFDh3V0/source.gif'></img>
       <div className="row">
         <Spotify />
